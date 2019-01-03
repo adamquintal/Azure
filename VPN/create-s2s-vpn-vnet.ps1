@@ -81,7 +81,7 @@ function New-AzureVnet {
     catch{Write-Host "Peering for this vNet has already been established. Moving on..."}
 
     Write-Host "Switching to gateway vnet subscription"
-    Select-AzSubscription waters-informatics-master
+    Select-AzSubscription root
 
     try
     {
