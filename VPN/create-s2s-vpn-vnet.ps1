@@ -11,6 +11,9 @@
 
 .PARAMETER VnetSubnetAddress
     The subnet for the vNet. Example: 10.243.8.0/25
+    
+.PARAMETER VnetSubnetAddress
+    Optional parameter for custom DNS server settings within vNet.
 
 .EXAMPLE
     New-WatersAzureVnet -AccountName "adam" -VnetAddress 10.243.8.0/24 -VnetSubnetAddress 10.243.8.0/25
