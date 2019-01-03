@@ -29,8 +29,8 @@ param (
        [Parameter(Mandatory=$true)][string]$VnetSubnetAddress,
        [Parameter(Mandatory=$false)][string]$Dns
 )
-<# The New-WatersAzureVnet function creates a vNet that is hosted on the Waters Site-to-Site VPN connection #>
-function New-WatersAzureVnet {
+<# The New-AzureVnet function creates a vNet that is hosted on the Waters Site-to-Site VPN connection #>
+function New-AzureVnet {
     [cmdletbinding()]
     param(
        [Parameter(Mandatory=$true)][string]$AccountName,
